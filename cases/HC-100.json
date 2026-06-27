@@ -1,0 +1,20 @@
+{
+  "case_id": "HC-100",
+  "category": "Compound Constitutional Failure",
+  "title": "Full Constitutional Collapse At Clinical Execution Boundary",
+  "constitutional_object": "Compound Constitutional Evaluation",
+  "clinical_action": "Execute clinical action under full constitutional collapse",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "context_mismatch",
+  "consent_state": "revoked",
+  "temporal_state": "window_expired",
+  "dependency_state": "dependency_chain_unreconstructable",
+  "resource_state": "resource_availability_unreconstructable",
+  "policy_state": "policy_applicability_unreconstructable",
+  "verification_state": "verification_unreconstructable",
+  "integrity_state": "integrity_unreconstructable",
+  "authority_state": "revoked",
+  "expected_result": "BLOCKED",
+  "expected_violation": "authority_state, patient_identity_state, consent_state, temporal_state, dependency_state, resource_state, policy_state, verification_state, integrity_state"
+}

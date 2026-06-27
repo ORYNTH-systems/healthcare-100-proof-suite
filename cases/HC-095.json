@@ -1,0 +1,20 @@
+{
+  "case_id": "HC-095",
+  "category": "Compound Constitutional Failure",
+  "title": "Resource Failure Combined With Policy Change",
+  "constitutional_object": "Compound Constitutional Evaluation",
+  "clinical_action": "Execute procedure after resource loss and policy change",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "valid",
+  "dependency_state": "satisfied",
+  "resource_state": "operating_room_unavailable",
+  "policy_state": "policy_changed",
+  "verification_state": "reconstructable",
+  "integrity_state": "preserved",
+  "authority_state": "valid",
+  "expected_result": "BLOCKED",
+  "expected_violation": "resource_state, policy_state"
+}

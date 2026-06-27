@@ -1,0 +1,20 @@
+{
+  "case_id": "HC-094",
+  "category": "Compound Constitutional Failure",
+  "title": "Temporal Expiration Combined With Dependency Failure",
+  "constitutional_object": "Compound Constitutional Evaluation",
+  "clinical_action": "Execute delayed action with missing dependency",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "order_expired",
+  "dependency_state": "laboratory_dependency_missing",
+  "resource_state": "available",
+  "policy_state": "valid",
+  "verification_state": "reconstructable",
+  "integrity_state": "preserved",
+  "authority_state": "valid",
+  "expected_result": "BLOCKED",
+  "expected_violation": "temporal_state, dependency_state"
+}

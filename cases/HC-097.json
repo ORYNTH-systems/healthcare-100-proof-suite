@@ -1,0 +1,20 @@
+{
+  "case_id": "HC-097",
+  "category": "Compound Constitutional Failure",
+  "title": "Authority Revocation With Temporal Expiration And Policy Change",
+  "constitutional_object": "Compound Constitutional Evaluation",
+  "clinical_action": "Execute action after authority, time, and policy failures",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "window_expired",
+  "dependency_state": "satisfied",
+  "resource_state": "available",
+  "policy_state": "policy_changed",
+  "verification_state": "reconstructable",
+  "integrity_state": "preserved",
+  "authority_state": "revoked",
+  "expected_result": "BLOCKED",
+  "expected_violation": "authority_state, temporal_state, policy_state"
+}

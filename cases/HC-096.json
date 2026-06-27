@@ -1,0 +1,20 @@
+{
+  "case_id": "HC-096",
+  "category": "Compound Constitutional Failure",
+  "title": "Verification Failure Combined With Integrity Degradation",
+  "constitutional_object": "Compound Constitutional Evaluation",
+  "clinical_action": "Execute treatment with unverifiable evidence and degraded integrity",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "valid",
+  "dependency_state": "satisfied",
+  "resource_state": "available",
+  "policy_state": "valid",
+  "verification_state": "verification_failed",
+  "integrity_state": "degraded",
+  "authority_state": "valid",
+  "expected_result": "BLOCKED",
+  "expected_violation": "verification_state, integrity_state"
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "HC-099",
+  "category": "Compound Constitutional Failure",
+  "title": "Resource Failure With Integrity Degradation And Policy Block",
+  "constitutional_object": "Compound Constitutional Evaluation",
+  "clinical_action": "Execute action under resource, integrity, and policy failure",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "valid",
+  "dependency_state": "satisfied",
+  "resource_state": "resource_availability_unreconstructable",
+  "policy_state": "site_policy_blocks_execution",
+  "verification_state": "reconstructable",
+  "integrity_state": "integrity_unreconstructable",
+  "authority_state": "valid",
+  "expected_result": "BLOCKED",
+  "expected_violation": "resource_state, policy_state, integrity_state"
+}

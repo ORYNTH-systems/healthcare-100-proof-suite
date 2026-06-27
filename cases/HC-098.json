@@ -1,0 +1,20 @@
+{
+  "case_id": "HC-098",
+  "category": "Compound Constitutional Failure",
+  "title": "Identity Mismatch With Dependency And Verification Failure",
+  "constitutional_object": "Compound Constitutional Evaluation",
+  "clinical_action": "Execute action under identity, dependency, and verification failures",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "context_mismatch",
+  "consent_state": "valid",
+  "temporal_state": "valid",
+  "dependency_state": "dependency_chain_unreconstructable",
+  "resource_state": "available",
+  "policy_state": "valid",
+  "verification_state": "verification_unreconstructable",
+  "integrity_state": "preserved",
+  "authority_state": "valid",
+  "expected_result": "BLOCKED",
+  "expected_violation": "patient_identity_state, dependency_state, verification_state"
+}
