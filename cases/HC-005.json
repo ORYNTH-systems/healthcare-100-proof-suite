@@ -1,0 +1,19 @@
+{
+  "case_id": "HC-005",
+  "category": "Clinical Execution Authority",
+  "title": "Clinical AI Recommendation Without Execution Authority",
+  "clinical_action": "Execute AI-generated treatment recommendation",
+  "initial_authorization_state": "recommendation_only",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "valid",
+  "dependency_state": "satisfied",
+  "resource_state": "available",
+  "policy_state": "valid",
+  "verification_state": "reconstructable",
+  "integrity_state": "preserved",
+  "authority_state": "not_authorized",
+  "expected_result": "BLOCKED",
+  "expected_violation": "initial_authorization_state"
+}

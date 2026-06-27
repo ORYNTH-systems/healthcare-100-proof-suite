@@ -1,0 +1,19 @@
+{
+  "case_id": "HC-004",
+  "category": "Clinical Execution Authority",
+  "title": "Nurse Delegation Revoked Before Medication Administration",
+  "clinical_action": "Administer delegated medication",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "valid",
+  "dependency_state": "satisfied",
+  "resource_state": "available",
+  "policy_state": "valid",
+  "verification_state": "reconstructable",
+  "integrity_state": "preserved",
+  "authority_state": "delegation_revoked",
+  "expected_result": "BLOCKED",
+  "expected_violation": "authority_state"
+}

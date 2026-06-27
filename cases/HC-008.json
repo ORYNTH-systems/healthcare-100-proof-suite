@@ -1,0 +1,19 @@
+{
+  "case_id": "HC-008",
+  "category": "Clinical Execution Authority",
+  "title": "Cross-Facility Order Outside Authorized Care Setting",
+  "clinical_action": "Execute external facility clinical order",
+  "initial_authorization_state": "authorized",
+  "current_execution_state": "pending",
+  "patient_identity_state": "continuous",
+  "consent_state": "valid",
+  "temporal_state": "valid",
+  "dependency_state": "satisfied",
+  "resource_state": "available",
+  "policy_state": "valid",
+  "verification_state": "reconstructable",
+  "integrity_state": "preserved",
+  "authority_state": "care_setting_mismatch",
+  "expected_result": "BLOCKED",
+  "expected_violation": "authority_state"
+}
