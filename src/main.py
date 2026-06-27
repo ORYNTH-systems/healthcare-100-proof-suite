@@ -35,7 +35,7 @@ def main():
 
     elif args.all:
         results = []
-        for i in range(1, 11):
+        for i in range(1, 21):
             case_id = f"HC-{i:03d}"
             results.append(run_case(case_id))
 
